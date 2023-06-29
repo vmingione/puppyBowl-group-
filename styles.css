@@ -1,0 +1,99 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+font-weight: bold;
+background-color: #ffe6d0;
+}
+
+nav {
+  font-size: 32px;
+  background-image: linear-gradient(#d0eaff,#686868);
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0px 4px 5px #326b37;
+}
+
+.navbar {
+  font-family: Graduate;
+  margin: 0 20px;
+}
+
+nav img{
+  width: 150px;
+  height: 150px;
+}
+
+#new-player-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#formBtn {
+  width: 35%;
+  margin-left: 30%;
+  cursor: grab;
+}
+
+#new-player-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.delete-button, .detail-button{
+  cursor: grab;
+  border: black solid 1px;
+}
+
+.delete-button:hover, .detail-button:hover{
+  background-color: #d0eaff;
+}
+
+#new-player-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.players {
+  flex-basis: 200px;
+  flex-grow: 1;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  padding: 100px;
+}
+
+.image {
+  width: 11rem;
+  border-radius: 40%;
+}
+
+span{
+  background-color: #d0eaff;
+  flex-basis: 500px;
+  box-shadow: 0 4px 10px 0 black;
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
